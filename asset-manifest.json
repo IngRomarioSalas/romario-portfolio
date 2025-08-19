@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/romario-portfolio/static/css/main.af20aaf3.css",
+    "main.js": "/romario-portfolio/static/js/main.c5327977.js",
+    "static/js/239.45ce889e.chunk.js": "/romario-portfolio/static/js/239.45ce889e.chunk.js",
+    "static/js/977.258ca1f4.chunk.js": "/romario-portfolio/static/js/977.258ca1f4.chunk.js",
+    "static/js/455.37800029.chunk.js": "/romario-portfolio/static/js/455.37800029.chunk.js",
+    "static/js/453.16828293.chunk.js": "/romario-portfolio/static/js/453.16828293.chunk.js",
+    "static/media/avatar.jpg": "/romario-portfolio/static/media/avatar.34b0e036b0659606f306.jpg",
+    "index.html": "/romario-portfolio/index.html",
+    "main.af20aaf3.css.map": "/romario-portfolio/static/css/main.af20aaf3.css.map",
+    "main.c5327977.js.map": "/romario-portfolio/static/js/main.c5327977.js.map",
+    "239.45ce889e.chunk.js.map": "/romario-portfolio/static/js/239.45ce889e.chunk.js.map",
+    "977.258ca1f4.chunk.js.map": "/romario-portfolio/static/js/977.258ca1f4.chunk.js.map",
+    "455.37800029.chunk.js.map": "/romario-portfolio/static/js/455.37800029.chunk.js.map",
+    "453.16828293.chunk.js.map": "/romario-portfolio/static/js/453.16828293.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af20aaf3.css",
+    "static/js/main.c5327977.js"
+  ]
+}
