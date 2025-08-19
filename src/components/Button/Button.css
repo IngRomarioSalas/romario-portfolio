@@ -1,0 +1,100 @@
+/* .fancy-button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(110, 142, 251, 0.3);
+}
+
+.fancy-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(110, 142, 251, 0.5);
+}
+
+.fancy-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10.01%);
+  background-size: 10px 10px;
+  animation: shine 2s linear infinite;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+@keyframes shine {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(100px, 100px);
+  }
+}
+
+.fancy-button span {
+  position: relative;
+  z-index: 1;
+} */
+ 
+.fancy-button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(110, 142, 251, 0.3);
+  text-decoration: none; /* importante para <a> */
+  text-align: center;
+}
+
+.fancy-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(110, 142, 251, 0.5);
+}
+
+.fancy-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10.01%);
+  background-size: 10px 10px;
+  animation: shine 2s linear infinite;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes shine {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(100px, 100px);
+  }
+}
+
+.fancy-button span {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,72 @@
+/* Header general */
+.custom-header {
+  background-color: #0f172a;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Contenedor centrado */
+.custom-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 🔥 Centra todo horizontalmente */
+  gap: 4rem; /* Espacio entre logo y menú */
+}
+
+/* Logo estilizado */
+.logo a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo .highlight {
+  color: #0ea5e9;
+}
+
+/* Navegación */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enlaces */
+.nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #38bdf8;
+}
+
+/* Enlace activo */
+.nav-link.active {
+  color: #f43f5e;
+  font-weight: 600;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #f43f5e;
+  bottom: -4px;
+  left: 0;
+  border-radius: 1px;
+}
